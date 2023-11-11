@@ -1,0 +1,72 @@
+.box {
+   border: 2px solid blue;
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    padding: 20px;
+    float: left;
+   
+}
+
+.box-1 {
+    background-image: url(../image/natural.jpg);
+    background-size: contain;
+    background-position:bottom center;
+    background-repeat: no-repeat;
+
+   
+
+}
+
+.box-2 {
+    background-image: url(../image/natural.1.jpg);
+    background-size: contain;
+    background-position: top right ;
+    background-repeat: no-repeat;
+   
+
+}
+
+.box-3 {
+
+    background-image: url(../image/natural.2.jpeg);
+    background-size: contain;
+    background-position: top left;  
+    background-repeat: no-repeat;
+
+}
+
+.box-4 {
+    
+    background-image: url(../image/natural.3.jpg);
+    background-size: contain;
+    background-position: bottom  right;
+    background-repeat: no-repeat;
+    
+
+}
+.box-5 {
+    
+    background-image: url(../image/natural.4.jpg);
+    background-size: contain;
+    background-position: top left;
+    background-repeat: no-repeat;
+
+}
+
+.box-6 {
+    
+    background-image: url(../image/natural.5.jpg);
+    background-size: cover;
+    background-position:  center right;
+   
+    
+
+ }
+ .box-7{
+    background-image: url(../image/natural.1.jpg);
+    background-size: contain ;
+    background-position: top left ;    
+    background-repeat: no-repeat;
+ }
+    

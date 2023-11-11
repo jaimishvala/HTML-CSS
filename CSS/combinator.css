@@ -1,0 +1,100 @@
+.combi>p {
+    color: red;
+}
+
+.combi h2+p {
+    color: blue;
+}
+
+.combi~p {
+    color: violet;
+}
+
+a:link {
+    color: yellow;
+}
+
+a:hover {
+    color: green;
+}
+
+a:active {
+    color: aqua;
+}
+
+a:visited {
+    color: blue;
+}
+
+
+
+
+ul li:first-child p {
+    color: red;
+}
+
+ul li:last-child p {
+    color: blue;
+}
+
+ul li:nth-child(2) p {
+    color: aqua;
+}
+
+ul li:nth-child(3) p {
+    color: goldenrod;
+}
+
+
+div p i:first-child {
+    color: red;
+}
+
+div p i:nth-child(2) {
+    color: green;
+}
+
+div p i:last-child {
+    color: blue;
+}
+
+
+div p:first-child i {
+    color: purple;
+}
+
+input:focus {
+    background-color: yellow;
+}
+
+.logo h1::first-letter {
+    color: red;
+}
+
+.logo p::first-line {
+    color: red;
+}
+
+.logo h1::after {
+    content: ':'
+}
+
+.logo h1::before {
+    content: '#';
+}
+
+.lorem h1::first-letter {
+    color: blue;
+}
+
+.lorem h1+p::first-line {
+    color: aqua;
+}
+
+.lorem h1::after {
+    content: ':';
+}
+
+.lorem h1::before {
+    content: '$';
+}

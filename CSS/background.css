@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../image/natural.2.jpeg);
+    background-color:pink;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-blend-mode:multiply;
+
+}
+
+.box{
+    width: 400px;
+    height: 350px;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 40px;
+    color: #fff;
+    background-image: url(../image/natural.4.jpg);
+    background-size: cover;
+    background-position: center left;
+    text-align: justify;
+    text-transform: capitalize;
+    float: left;
+}
+
+p{  
+    color: #fff;
+    text-align: justify;
+    text-indent: 50px;
+    text-transform: capitalize; 
+}
+

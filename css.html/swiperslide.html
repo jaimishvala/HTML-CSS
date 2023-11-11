@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiper-Slide</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="../CSS/swiperslide.css">
+</head>
+
+<body>
+    <div class="swiper mega-shop">
+        <h1>From The Blog</h1>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="/Exam Test/shop1.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="/Exam Test/shop2.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="/Exam Test/shop3.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="/Exam Test/shop4.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="/Exam Test/shop5.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="/Exam Test/shop6.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="/Exam Test/shop7.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="/Exam Test/shop8.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="/Exam Test/shop9.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="/Exam Test/shop11.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="/Exam Test/shop10.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+    </div>
+
+
+    <br>
+    <br>
+    <!-- Swiper -->
+    <div class="swiper myproduct">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="../image/phone1.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="../image/phone2.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="../image/phone3.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="../image/phone4.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="../image/phone5.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="../image/phone6.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="../image/phone7.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="../image/phone8.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="../image/phone9.jpg" alt="">
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-scrollbar"></div>
+    </div>
+
+
+
+    <!-- Slider main container -->
+    <div class="swiper main-swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <img src="../image/natural.2.jpeg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="../image/natural.4.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="../image/natural.5.jpg" alt="">
+            </div>
+
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper2 = new Swiper(".mega-shop", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 3,
+                    spaceBetween: 30,
+                },
+                // 768: {
+                //     slidesPerView: 4,
+                //     spaceBetween: 40,
+                // },
+                // 1024: {
+                //     slidesPerView: 5,
+                //     spaceBetween: 50,
+                // },
+            },
+        });
+    </script>
+
+
+    <script>
+        const swiper = new Swiper('.main-swiper', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+            // autoplay: {
+            //     delay: 1000,
+            // },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // And if we need scrollbar
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+        });
+    </script>
+
+    <script>
+        var swiper1 = new Swiper(".myproduct", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 4,
+                    spaceBetween: 40,
+                },
+                1024: {
+                    slidesPerView: 5,
+                    spaceBetween: 50,
+                },
+            },
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    color: black;
+    text-decoration: none;
+    padding: 30px;
+}
+
+.container {
+    border: 5px solid black;
+    background-color: aqua;
+    width: 100%;
+    height: 1200px;
+    margin: 10px auto;
+}
+
+.link-box {
+    background-color: pink;
+    border: 2px solid black;
+    width: 90%;
+    height: 5%;
+    margin: 0px auto;
+    font-size: 30px;
+    position: sticky;
+    top: 0px;
+    padding: 10px;
+}
+
+.parent {
+    border: 2px solid black;
+    width: 90%;
+    height: 75%;
+    margin: 10px auto;
+    position: relative;
+
+}
+
+.product-box {
+    border: 2px solid black;
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    float: left;
+
+}
+.box-1{
+    position: absolute;
+    top: 10px;
+}
+.box-2{
+    position: absolute;
+    bottom: 0px;
+    left: 1000px;
+}
+.box-3{
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+}
+.box-4{
+    position: absolute;
+    right: 0px;
+    top: 10px;
+}
+
+.img-1 {
+    background-image: url(../image/natural.1.jpg);
+    width: 100%;
+    height: 80%;
+    background-size: cover;
+    background-position: center center;
+}
+
+.img-2 {
+    background-image: url(../image/natural.3.jpg);
+    width: 100%;
+    height: 80%;
+    background-size: cover;
+    background-position: center center;
+}
+
+.img-3 {
+    background-image: url(../image/natural.4.jpg);
+    width: 100%;
+    height: 80%;
+    background-size: cover;
+    background-position: center center;
+}
+
+.img-4 {
+    background-image: url(../image/natural.5.jpg);
+    width: 100%;
+    height: 80%;
+    background-size: cover;
+    background-position: center center;
+}
+
+.desc {
+    color: red;
+    padding: 10px;
+}
+
+.fixed-box {
+    background-color: red;
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 20px;
+    right: 0px;
+    margin: 10px 60px;
+}

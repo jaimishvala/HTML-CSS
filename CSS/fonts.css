@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+
+
+@font-face {
+    font-family: 'Smokum';
+    src: url(../fonts/Smokum-Regular.ttf);
+
+}
+
+@font-face {
+    font-family: CaviarDreams;
+    src: url(../fonts/CaviarDreams.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+     font-family: CaviarDreams;;
+    src: url(../fonts/Caviar_Dreams_Bold.ttf);
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: CaviarDreams;
+    src: url(../fonts/CaviarDreams_Italic.ttf);
+    font-style: italic;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: CaviarDreams;
+    src: url(../fonts/CaviarDreams_BoldItalic.ttf);
+    font-style: italic;
+    font-weight:bold ;
+}
+
+
+
+@font-face {
+    font-family: COLLEGEB;
+    src: url(../fonts/COLLEGEB.ttf);
+}
+
+
+#serif-font{
+    font-family: serif;
+}
+#sans-font{
+    font-family: sans-serif;
+}
+#mono-space{
+    font-family: monospace;
+}
+#cursive-font{
+    font-family: cursive;
+}
+#fantacy-font{
+
+    font-family: fantasy;
+}
+#lgoogle{
+    font-family: 'Tilt Prism', cursive;
+}
+#igoogle{
+
+    font-family: 'Rubik Iso', cursive;
+  }
+#download{
+    font-family: 'Smokum';
+    font-size: 30px;
+  }
+#squirrel{
+    font-family: CaviarDreams;
+    font-weight:bold;
+    font-style:italic;
+    font-size: 40px;
+}
+
+#p{
+     font-family: COLLEGEB;;
+     font-weight: bold;
+    font-style: normal;
+     font-size: 40px;
+     
+}

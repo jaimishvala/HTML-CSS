@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 2px solid black;
+    width: 1000px;
+    height: 100px;
+    margin: 10px auto;
+
+}
+
+.logo img {
+    width: 100px;
+    height: 96px;
+    float: left;
+}
+
+
+header nav {
+    float: right;
+    margin: 35px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}

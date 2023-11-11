@@ -1,0 +1,29 @@
+#inline-demo {
+    display: inline;
+    margin: 10px;
+    color: red
+}
+
+#lorem {
+    display: inline;
+    border: 2px solid black;
+    color: red;
+    width: 100px;
+    height: 100px;
+    margin: 100px;
+}
+
+#none-demo {
+    display: none;
+}
+
+#inline-block{
+    border: 2px solid black;
+    color: red;
+    background-color: aqua;
+    display: inline-block;
+    width: 70px;
+    height: 60px;
+    margin: 30px;
+    padding: 10px;
+}

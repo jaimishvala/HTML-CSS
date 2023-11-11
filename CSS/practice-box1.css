@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width:300px;
+    height: 250px;
+    float: left;
+    margin: 20px;
+    border: 3px solid black;
+}
+.img{
+    background-image:url(../image/natural.jpg);
+    width: 295px;
+    height: 179px;
+    background-size: cover;
+    background-position: center center;
+}
+.img-1{
+    width: 295px;
+    height: 179px;
+    background-image: url(../image/natural.5.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.box-1{
+     border: 2px solid black;
+     width:295px;
+     height:70px;
+}
+
+.box-2{
+    border: 2px solid black;
+    width: 295px;
+    height: 70px;
+}
+
+

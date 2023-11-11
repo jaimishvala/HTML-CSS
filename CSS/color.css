@@ -1,0 +1,30 @@
+#h1{
+    color: aqua;
+}
+#h2{
+    color: pink;
+}
+#h3{
+    color: #00ff00;
+}
+#h4{
+    color: rgba(255,0, 0, 1);
+}
+#h5{
+    color: rgb(19, 19, 149);
+}
+.h1{
+    color: #00ff00;
+}
+.h2{
+    color: rgb(255, 255, 0);
+}
+.h3{
+    color: rgb(28, 123, 174);
+}
+.h4{
+    color: rgba(38, 26, 23, 0.452);
+}
+.tiger{
+    color: rgba(38, 26, 23, 0.452);
+}

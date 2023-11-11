@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.mega-shop{
+  width: 80%;
+  margin: 0px auto;
+}
+
+.mega-shop .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+.mega-shop h1{
+  color: #e76453;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 10px 0px;
+  text-align: center;
+  line-height: 34px;
+  margin: 15px 0px;
+}
+.mega-shop .swiper-button-next,
+.mega-shop .swiper-button-prev{
+  background-color: #c1c1c1;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: #fff;
+  margin: 25px 0px;
+}
+.mega-shop .swiper-button-next::after,
+.mega-shop .swiper-button-prev::after{
+  font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-swiper {
+  width: 100%;
+  height: 100vh;
+}
+
+.main-swiper .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.main-swiper .swiper-button-next,
+.main-swiper .swiper-button-prev,
+.myproduct .swiper-button-next,
+.myproduct .swiper-button-prev {
+  border: 1px solid #fff;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.main-swiper .swiper-button-next::after,
+.main-swiper .swiper-button-prev::after,
+.myproduct .swiper-button-next::after,
+.myproduct .swiper-button-prev::after {
+  font-size: 50px;
+}
+
+.main-swiper .swiper-pagination-bullet{
+  background: #fff;
+}
+
+
+.myproduct{
+  width: 100%;
+  height: 400px;
+}
+
+.myproduct .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myproduct .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
